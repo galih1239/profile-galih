@@ -1,0 +1,163 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #1b2bc1;
+}
+
+#skill{
+    background-color: #1b2bc1;
+    
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 16/10;
+    gap: 50px;
+    background: #ffffff;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.progress-box {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.title {
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 0 0 10px;
+    line-height: 35px;
+}
+
+.progress {
+    position: relative;
+    width: 650px;
+    height: 35px;
+    background: #AEB8FE;
+    border-radius: 35px;
+}
+
+.progress-bar{
+    background: #758BFD;
+    border-radius: 35px;
+}
+
+.progress-number {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #5465FF;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1x;
+}
+
+.bar-1 {
+    width: 90%;
+    height: 35px;
+    animation: bar 1 2s ease-in-out;
+}
+ 
+.num-1{
+    top: -7.5px;
+    left: calc(90% - 25px);
+    animation: num-1 2s ease-in-out;
+}
+.bar-2 {
+    width: 85%;
+    height: 35px;
+    animation: bar 2 2s ease-in-out;
+}
+
+.num-2{
+    top: -7.5px;
+    left: calc(85% - 25px);
+    animation: num-2 2s ease-in-out;
+}
+.bar-3 {
+    width: 80%;
+    height: 35px;
+    animation: bar 3 2s ease-in-out;
+}
+
+.num-3{
+    top: -7.5px;
+    left: calc(80% - 25px);
+    animation: num-3 2s ease-in-out;
+}
+@keyframes bar-1 {
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 85%;
+    }
+}
+@keyframes num-1
+{
+    0%
+    {
+        left: -25px;
+    }
+    100%
+    {
+        left: calc(85% -25px);
+    }
+}
+@keyframes bar-2 {
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 60%;
+    }
+}
+@keyframes num-2
+{
+    0%
+    {
+        left: -25px;
+    }
+    100%
+    {
+        left: calc(60% -25px);
+    }
+}
+@keyframes bar-3 {
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 60%;
+    }
+}
+@keyframes num-3
+{
+    0%
+    {
+        left: -25px;
+    }
+    100%
+    {
+        left: calc(60% -25px);
+    }
+}
